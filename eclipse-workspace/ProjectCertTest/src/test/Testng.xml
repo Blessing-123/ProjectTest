@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="CertProject" verbose="1" >
+  <test name="ProjectCertTest" >
+    <classes>
+       <class name="ProjectTest" />
+  
+    </classes>
+  </test>
+ </suite>
