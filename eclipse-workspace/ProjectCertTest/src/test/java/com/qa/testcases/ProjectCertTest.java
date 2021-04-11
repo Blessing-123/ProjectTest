@@ -29,10 +29,9 @@ public class ProjectCertTest{
 		
 		Thread.sleep(3000);
 		
-		//driver.findElement(By.id("wpName2")).sendKeys("SeleniumTest");
+		
  
-           //   Now use XPATH to write the locator value.
-           // Enter the URL of PHP Application
+          
            String title = driver.getTitle();
 		   System.out.println(title);
 		   driver.findElement(By.linkText("Home")).click();
@@ -43,15 +42,14 @@ public class ProjectCertTest{
            
 		   Thread.sleep(3000);
 		   
-		   //driver.findElement(By.id("Element_Id"));
+		  
 		   
 		   
-		   
-		   //driver.findElement(By.name("//*[@id=\"PID-p4d-pg\"]")).click();
+		   driver.findElement(By.xpath("//*[@id=\"Products\"]")).click();
 		   
 		   Thread.sleep(3000);
            
-		   //driver.findElement(By.linkText("Contact")).click();
+		   driver.findElement(By.linkText("Contact")).click();
 		   
 		   Thread.sleep(3000);
 
